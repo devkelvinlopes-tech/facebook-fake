@@ -7,12 +7,10 @@
 
 }
 
-    
-
 .left{
     box-sizing: border-box;
     width: 480px;
-    margin-left: 170px;
+    margin: 100px 0px 0px 170px;
     display: inline-block;
     
    
@@ -24,9 +22,12 @@
     width: 456px;
     height: 396px;
     padding-left: 30px;
-    margin-top: 80px;
-    
+    margin-top: 100px;
+}
 
+input:focus{
+    border: 1px solid #175ae9;
+    outline: none;
 
 }
 
@@ -89,6 +90,8 @@ input:active{
     cursor: pointer;
     font-weight: bold;
     margin-bottom: 30px;
+    border: none;
+    
     
 
 }
@@ -117,6 +120,7 @@ input:active{
     margin-left: 105px;
     margin-top: 30px;
     cursor: pointer;
+    border: none;
 }
 .button-new:hover{
     background-color: rgb(63, 121, 5);
