@@ -154,3 +154,13 @@ footer{
 
 }
 
+@media screen and (max-widtg:500px) {
+    .left{
+        
+        box-sizing: border-box;
+        display: block;
+        width: 480px;
+    }
+    
+}
+
